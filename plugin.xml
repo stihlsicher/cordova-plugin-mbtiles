@@ -36,7 +36,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 	<source-file src="src/android/MBTilesActionsGenImpl.java" target-dir="src/com/makina/offline/mbtiles" />
 
     </platform>
-     <platform name="wp8">
+     <platform name="windows">
 
 	<js-module src="www/MBTilesPlugin.js" name="MBTilesPlugin">
      	   <clobbers target="window.MBTilesPlugin" />
